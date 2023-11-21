@@ -1,0 +1,13 @@
+@function Functiontext($title) {
+    @if ($title > 20px) {
+        @return 16px;
+    }
+
+    @else {
+        @return 20px;
+    }
+}
+
+p {
+    font-size: Functiontext(30px);
+}

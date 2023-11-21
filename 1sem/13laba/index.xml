@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="telo.xsl"?>
+<telo>
+    <osnova>КОтики</osnova>
+    <text>Милые очень милые красивые невероятно веселые и прекрасные создания</text>
+</telo>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<spiski>
+    <cd>
+        <ycheniki>Иванов В. В.</ycheniki>
+        <ozenka>3</ozenka>
+        <ozenka2>8</ozenka2>
+        <ozenka3>5</ozenka3>
+        <ozenka4>5</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Петров А. Д.</ycheniki>
+        <ozenka1>3</ozenka1>
+        <ozenka2>5</ozenka2>
+        <ozenka3>7</ozenka3>
+        <ozenka4>3</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Рыбкина Р. Д.</ycheniki>
+        <ozenka1>5</ozenka1>
+        <ozenka2>2</ozenka2>
+        <ozenka3>4</ozenka3>
+        <ozenka4>1</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Кроликов А. Е.</ycheniki>
+        <ozenka1>7</ozenka1>
+        <ozenka2>9</ozenka2>
+        <ozenka3>9</ozenka3>
+        <ozenka4>5</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Зимов К. П.</ycheniki>
+        <ozenka1>5</ozenka1>
+        <ozenka2>4</ozenka2>
+        <ozenka3>9</ozenka3>
+        <ozenka4>6</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Родина П. А.</ycheniki>
+        <ozenka1>1</ozenka1>
+        <ozenka2>5</ozenka2>
+        <ozenka3>9</ozenka3>
+        <ozenka4>6</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Евгеньев С. М.</ycheniki>
+        <ozenka1>5</ozenka1>
+        <ozenka2>4</ozenka2>
+        <ozenka3>5</ozenka3>
+        <ozenka4>4</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Димов П. С.</ycheniki>
+        <ozenka1>5</ozenka1>
+        <ozenka2>7</ozenka2>
+        <ozenka3>5</ozenka3>
+        <ozenka4>5</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Семенов А. Е.</ycheniki>
+        <ozenka1>9</ozenka1>
+        <ozenka2>5</ozenka2>
+        <ozenka3>7</ozenka3>
+        <ozenka4>6</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Страконицкий Ф. Д.</ycheniki>
+        <ozenka1>2</ozenka1>
+        <ozenka2>9</ozenka2>
+        <ozenka3>5</ozenka3>
+        <ozenka4>7</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Стариков А. П.</ycheniki>
+        <ozenka1>9</ozenka1>
+        <ozenka2>9</ozenka2>
+        <ozenka3>6</ozenka3>
+        <ozenka4>8</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Зыбкин Д. С.</ycheniki>
+        <ozenka1>6</ozenka1>
+        <ozenka2>2</ozenka2>
+        <ozenka3>6</ozenka3>
+        <ozenka4>5</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Филлипов Р. П.</ycheniki>
+        <ozenka1>9</ozenka1>
+        <ozenka2>7</ozenka2>
+        <ozenka3>9</ozenka3>
+        <ozenka4>4</ozenka4>
+    </cd>
+    <cd>
+        <ycheniki>Узкин Н. Г</ycheniki>
+        <ozenka1>9</ozenka1>
+        <ozenka2>5</ozenka2>
+        <ozenka3>6</ozenka3>
+        <ozenka4>7</ozenka4>
+    </cd>
+</spiski>

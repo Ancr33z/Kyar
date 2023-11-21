@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="forXML.css"?>
+<!DOCTYPE books [
+<!ELEMENT telo (osnova, text)>
+<!ELEMENT telo (#PCDATA)>
+<!ELEMENT osnova (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+]>
+<telo>
+    <osnova>КОтики</osnova>
+    <text>Милые очень милые красивые невероятно веселые и прекрасные создания</text>
+</telo>

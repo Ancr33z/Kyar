@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1.7% 48% 49%;
+    grid-gap: 5px;
+}
+.grid div{
+    background-color: aqua;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center  ;
+}
+.gridElement1{
+    
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    word-break: break-all;
+
+}

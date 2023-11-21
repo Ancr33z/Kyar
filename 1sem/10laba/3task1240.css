@@ -1,0 +1,38 @@
+* {
+        text-align: center;
+        margin: 0;
+}
+.navElement {
+        margin: 0;
+    }
+.firstRow {
+        display: flex;
+        justify-content: space-around;
+}
+.firstRowTitle {
+    margin: 0;
+}
+.firstRowNav {
+    display: none;
+}
+.secondRow {
+    display: block;
+}
+.burgerNav {
+    display: flex;
+}
+.secondRowContent {
+    display: flex;
+}
+video {
+    margin-left: 2%;
+}
+.catRow {
+    display: block;
+}
+img {
+    width: 100%;
+}
+figcaption {
+        color: blue;
+}

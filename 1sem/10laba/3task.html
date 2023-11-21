@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../clearList/normalize.css">
+    <link rel="stylesheet" href="3task.css">
+
+</head>
+
+<style>
+    @import url(3task1240.css) (min-width: 768px) and (max-width: 1280px);
+    @media (min-width: 480px) and (max-width: 768px) {
+        .container {
+            text-align: center;
+        }
+
+        .firstRow {
+            margin-bottom: 30px;
+        }
+
+        .secondRow {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .secondRowContent {
+            width: 33.333333%;
+            display: block;
+        }
+
+        .secondRowContent2 {
+            width: 33.333333%;
+            display: block;
+        }
+
+        .secondRowContent3 {
+            width: 33.333333%;
+            display: block;
+        }
+
+        audio {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .firstRow {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .firstRowTitle {
+            margin-left: 35%;
+        }
+
+        .firstRowNav {
+            display: none;
+        }
+
+        .navElement {
+            display: flex;
+            margin-left: 15px;
+        }
+
+        .burgerNav {
+            display: block;
+        }
+
+        .secondRow {
+            display: block;
+        }
+
+        .catRow {
+            display: block;
+            justify-content: space-between;
+        }
+
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        figcaption {
+            color: red;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="firstRow">
+            <div class="firstRowTitle">
+                Css FLEX
+            </div>
+            <div class="firstRowNav">
+                <div class="navElement"><a href="#">Kotiki</a></div>
+                <div class="navElement"><a href="#">Kotiki</a></div>
+                <div class="navElement"><a href="#">Kotiki</a></div>
+            </div>
+            <div class="burgerNav">&#8801;</div>
+        </div>
+        <div class="secondRow">
+            <div class="secondRowContent">
+                <video controls style="width: 100px;"
+                    src="https://www.youtube.com/watch?v=uHKfrz65KSU&ab_channel=AwwAnimals"></video>
+                <video controls style="width: 100px;"
+                    src="https://www.youtube.com/watch?v=uHKfrz65KSU&ab_channel=AwwAnimals"></video>
+                <video controls style="width: 100px;" src="
+                    https://www.youtube.com/watch?v=uHKfrz65KSU&ab_channel=AwwAnimals"></video>
+            </div>
+            <div class=" secondRowContent2">display: определяет тип контейнера. Для создания контейнера Flexbox, нужно
+                установить значение display на flex.
+
+                flex-direction: Свойство flex-direction определяет направление, в котором располагаются элементы
+                внутри
+                контейнера Flexbox. Значение этого свойства может быть одним из четырех вариантов: row, row-reverse,
+                column и column-reverse.
+                flex-grow: Свойство flex-grow определяет, насколько большой относительно других элементов будет
+                элемент
+                внутри контейнера Flexbox. Это свойство устанавливает, сколько доступного пространства на основной
+                оси
+                (главной оси) займет элемент. Значения свойства являются положительными числами. Когда у элементов в
+                контейнере Flexbox есть свободное пространство, оно распределяется между элементами в соответствии с
+                их
+                значениями свойства flex-grow. Если у одного элемента значение flex-grow равно 1, а у другого - 2,
+                то
+                второй элемент займет в два раза больше свободного пространства, чем первый.
+            </div>
+            <div class="secondRowContent3"><audio controls src="sample-3s.mp3">sdsad</audio>
+                <audio controls src="sample-3s.mp3"></audio>
+                <audio controls src="sample-3s.mp3"></audio>
+            </div>
+        </div>
+        <div class="catRow">
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption>fotoCat</figcaption>
+            </div>
+            <div class="fotoRow"><img
+                    src="https://media.istockphoto.com/id/157568100/photo/sophisticated.jpg?s=612x612&w=0&k=20&c=v48SIeD4VSKiBV_y2vad74u-2IruTWW4zJpU_qjqCMY="
+                    alt="">
+                <figcaption class="figcapture">fotoCat</figcaption>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

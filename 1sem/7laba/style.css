@@ -1,0 +1,399 @@
+img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+}
+div {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: green;
+    display: block;
+    animation: appearence 3s alternate linear;
+}
+@keyframes appearence {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+.navMenu {
+    margin-top: -70px;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    margin-left: 50px;
+}
+.navMenu a {
+    background-color: yellow;
+    border: 1px solid green;
+    display: block;
+    padding: 10px 20px;
+    color: green;
+}
+
+.fifoto {
+    display: inline-block;
+    width: 200px;
+}
+.fifoto:hover {
+    scale: 0.5;
+    translate: 50px 50px;
+}
+.sfoto {
+    display: inline-block;
+    width: 200px;
+}
+.sfoto:hover {
+    rotate: 45deg;
+}
+.tfoto {
+    display: inline-block;
+    width: 200px;
+}
+.tfoto:hover {
+    translate: 50px;
+}
+.fofoto {
+    width: 200px;
+}
+.fofoto:hover {
+    rotate: -20deg;
+}
+
+.fifoto2 {
+    border: 5px solid black;
+    display: inline-block;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateX(50deg);
+}
+
+.sfoto2 {
+    display: inline-block;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(50deg);
+}
+
+.tfoto2 {
+    display: inline-block;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateX(50deg);
+}
+
+.fofoto2 {
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(-50deg);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 0px;
+}
+.button1:hover {
+    color: white;
+    background: black;
+    border: 0px;
+}
+.button2:hover {
+    padding: 5px 15px;
+    border: 5px ridge yellow;
+}
+.button3:hover {
+    padding: 5px 20px;
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+}
+.button4:hover {
+    padding: 10px 20px;
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+}
+.button5:hover {
+    background: radial-gradient(
+        yellow 10%,
+        purple,
+        rgb(110, 110, 255),
+        rgb(0, 229, 255)
+    );
+}
+
+.N4 img {
+    margin-left: 0;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.firstImg1 {
+    left: 20px;
+    animation: firstImg1 1s linear forwards;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(70deg);
+}
+@keyframes firstImg1 {
+    0% {
+    }
+    100% {
+        transform: none;
+        left: 200px;
+    }
+}
+.secondImg2 {
+    left: 60px;
+    animation: firstImg2 2s linear forwards;
+    transform: perspective(800px) rotateY(70deg);
+}
+@keyframes firstImg2 {
+    0% {
+    }
+    50% {
+        transform: none;
+        left: 220px;
+    }
+    100% {
+        transform: none;
+        left: 420px;
+        filter: blur(10px);
+    }
+}
+.thirdImg3 {
+    left: 100px;
+    animation: firstImg3 2s linear forwards;
+    transform: perspective(800px) rotateY(70deg);
+}
+@keyframes firstImg3 {
+    0% {
+    }
+    50% {
+        transform: none;
+        left: 240px;
+    }
+    100% {
+        left: 640px;
+        transform: none;
+        filter: grayscale(1);
+    }
+}
+.forthImg4 {
+    left: 140px;
+    animation: firstImg4 2s linear forwards;
+    transform: perspective(800px) rotateY(70deg);
+}
+@keyframes firstImg4 {
+    0% {
+    }
+    50% {
+        transform: none;
+        left: 260px;
+    }
+    100% {
+        left: 860px;
+        transform: none;
+        filter: invert(1);
+    }
+}
+
+.N5 img {
+    margin-left: 0;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.N5 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(102, 186, 42);
+}
+p {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.firstImg {
+    animation-name: fotochange1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+.secondImg {
+    animation-name: fotochange2;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.thirdImg {
+    animation-name: fotochange3;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.forthImg {
+    animation-name: fotochange4;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.fiveth {
+    animation-name: fotochange5;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes fotochange1 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fotochange2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fotochange3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fotochange4 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fotochange5 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.N6 img {
+    position: block;
+}
+.newfoto1 {
+    animation: foto1 2s infinite alternate;
+}
+@keyframes foto1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        transform: translate(200px);
+    }
+}
+.newfoto2 {
+    animation: foto2 2s infinite alternate;
+}
+@keyframes foto2 {
+    0% {
+        left: 0;
+    }
+    100% {
+        border-radius: 20%;
+        transform: translate(200px);
+    }
+}
+.newfoto3 {
+    animation: foto3 4s infinite alternate;
+}
+@keyframes foto3 {
+    0% {
+        transform: translate(-300px);
+    }
+    100% {
+        transform: translate(1540px);
+    }
+}
+.newfoto4 {
+    animation: foto4 2s infinite alternate;
+}
+@keyframes foto4 {
+    100% {
+        transform: translate(0, 50px);  
+    }
+}
+.newfoto5 {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 200px;
+    animation: foto5 2s infinite linear;
+}
+@keyframes foto5 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 0;
+        top: 200px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 200px;
+        top: 0;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+.textChange {
+    animation: textizmena 5s infinite alternate;
+}
+@keyframes textizmena {
+    0% {
+        color: rgb(15, 83, 192);
+    }
+    100% {
+        color: rgb(101, 244, 49);
+    }
+}

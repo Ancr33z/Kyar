@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-template-columns:47.5% 47.5% 3%;
+    grid-gap: 5px;
+}
+.grid div{
+    background-color: palevioletred ;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center  ;
+}
+.gridElement1{
+    grid-row: 1/3;
+}
+
+.gridElement4{  
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    grid-row: 1/3;
+    grid-column: 3/4;
+}   

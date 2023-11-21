@@ -1,0 +1,25 @@
+a{
+    display: block;
+    width: 40px;
+}
+.one{
+    color: red;
+    text-decoration: none;
+}
+.one:visited{
+    color: #8B0000;
+}
+.one:hover{
+    color: green;
+}
+.one:active{
+    color: rgb(184, 134, 11);
+}
+aside{
+    width: 50%;
+    float: right;
+    
+}
+aside a{
+    margin-bottom: 55px;
+}

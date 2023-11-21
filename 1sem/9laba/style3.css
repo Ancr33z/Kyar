@@ -1,0 +1,22 @@
+img{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+}
+.grid{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%; 
+    grid-gap: 1%;
+}
+.grid div{
+    text-align: center  ;
+}
+.gridElement9{
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+.gridElement10{
+    grid-row: 3/5;
+    grid-column: 1/3;
+}

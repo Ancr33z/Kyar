@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+h4 {
+    color: purple;
+    font-family: Monotype Corsiva;
+}
+.FirstList {
+    font-size: 18pt;
+    font-family: "Times New Roman", Times, serif;
+}
+.SecondList {
+    font-size: 20pt;
+    font-family: "Times New Roman", Times, serif;
+}
+.ThirdList {
+    font-size: 22pt;
+    font-family: "Times New Roman", Times, serif;
+}
+table {
+    color: #666;
+}

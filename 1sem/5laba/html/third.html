@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    * {
+        text-align: center;
+        color: white;
+
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    form {
+        background-color: indigo;
+        width: 460px;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    label {
+        display: inline-block;
+        width: 220px;
+        text-align: left;
+        margin-bottom: 10px;
+
+    }
+
+    textarea {
+        resize: none;
+        border-radius: 5px;
+        display: inline;
+        background-color: rgba(255, 255, 255, .5);
+        color: rgba(255, 255, 255, 1);
+        box-shadow: inset 0 0 10px rgba(255, 255, 255, .75)
+    }
+
+    div {
+        text-align: right;
+        padding-right: 20px;
+        margin-top: 5px;
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: navy;
+        box-shadow: 0 0 4px white;
+    }
+
+    input {
+        color: black;
+    }
+
+    option {
+        color: black;
+    }
+
+    .choose {
+        width: 150px;
+        margin-right: 49px;
+        color: black;
+    }
+
+    .date {
+        background-color: white;
+        margin-right: 86px;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <form class="formWrapper">
+        <h1>Регистрация постоянного клиента</h1>
+        <label for="name">Фамилия:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Имя:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Отчество:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Ваш возраст:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Пол:</label>
+        <input type="checkbox" name="name" id="name">Мужской
+        <input type="checkbox" name="name" id="name"> Женский
+        <label for="name">Email:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Страна проживания:</label>
+        <textarea name="name" id="name" cols="24" rows="1"></textarea>
+        <label for="name">Откуда вы узнали о нас?</label>
+        <select class="choose" name="choose" id="name">
+            <option value="От дргуа">Выберите вариант</option>
+            <option value="От дргуа">от друга</option>
+            <option value="От дргуа">от друга</option>
+        </select>
+        <label for="name">Дата заполнения</label>
+        <input class="date" type="date">
+        <div>
+            <button>Регистрация</button>
+            <button style="margin-right: 29px;">Отмена</button>
+        </div>
+    </form>
+</body>
+
+</html>

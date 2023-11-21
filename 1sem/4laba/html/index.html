@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блочная модель</title>
+    <link rel="stylesheet" href="../4laba/Css/Style.css">
+</head>
+<style>
+    div {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        border: 10px solid blue;
+    }
+
+    span {
+        display: block;
+        margin: 5px;
+        padding: 5px;
+        background-color: #FFA500;
+        border: 5px solid #FF4500;
+    }
+</style>
+
+<body>
+    <div style="border: 10px inset rgb(255, 0, 0);">R</div>
+    <div style="border: 10px dashed rgb(0, 255, 0);">G</div>
+    <div style="border: 10px dotted rgb(0, 0, 255);">B</div>
+    <div style="border: 10px double rgb(0, 255, 255);">C</div>
+    <div style="border: 10px groove rgb(255, 0, 255);">M</div>
+    <div style="border: 10px outset rgb(255, 255, 0);">Y</div>
+    <div style="border: 10px solid rgb(0, 0, 0);">K</div>
+
+    <p style="width: 400px; text-align: center; border: 5px solid #FF7F50;"><span>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis, neque?</span></p>
+    <p style="border: 5px solid red; border-radius: 20px 40px; box-shadow: 2px 8px 8px rgba(0,0,0,.5); overflow: auto;">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, neque?</span>
+    </p>
+    <p style="border: 5px solid #ff6347;"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+            neque?</span></p>
+</body>
+
+</html>

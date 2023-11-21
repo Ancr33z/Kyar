@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Carveat';
+        src: url(/3laba/fonts/Caveat.ttf) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Exo2';
+        src: url(/3laba/fonts/Exo2.ttf) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Comfortaa';
+        src: url(/3laba/fonts/Comfortaa.ttf) format('woff');
+    }
+
+    h1 {
+        font-family: 'Carveat';
+        font-size: 45px;
+        font-weight: 500;
+        text-transform: lowercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-family: 'Exo2';
+        font-size: 25px;
+        margin-bottom: 1.2em;
+        margin-top: 0.2em;
+        text-align: left;
+
+    }
+
+    p {
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        text-align: left;
+        line-height: 200%;
+        text-indent: 25px;
+        margin: 0;
+    }
+
+    p::first-letter {
+        font-size: 45px;
+        color: white;
+        background-color: hsla(275, 100%, 10%, 1);
+    }
+
+    .beforeList {
+        margin: 0;
+        padding: 0;
+    }
+
+    ol li {
+        list-style-type: none;
+        counter-increment: item;
+    }
+
+    ol li::before {
+        content: counter(item, upper-roman) ".";
+        color: blue;
+    }
+</style>
+
+<body>
+    <h1>
+        Lorem ipsum dolor sit amet.
+    </h1>
+    <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione.
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, doloremque. Consequuntur provident assumenda
+        magnam quam repellat quidem a quisquam consectetur esse fugit doloremque labore, earum veniam quasi ab eaque
+        corrupti adipisci rerum nostrum ipsa ducimus! Temporibus architecto labore vitae accusamus aliquid obcaecati,
+        atque commodi at, magnam maiores distinctio corrupti doloremque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id officia, perferendis reprehenderit quidem sunt
+        deleniti sed molestias iste nostrum tempore incidunt at delectus nisi quae veritatis enim similique inventore
+        saepe accusantium necessitatibus nobis! Esse id maiores sit voluptas harum, eligendi quia. Repellat hic sint
+        quasi ipsa quibusdam natus ipsum?</p>
+    <h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, sint?
+    </h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis itaque dolores necessitatibus magnam
+        accusantium atque fuga similique deleniti ipsam impedit ea expedita libero temporibus velit, assumenda est
+        ducimus laudantium excepturi cumque quae incidunt quos veniam? Accusantium perspiciatis provident, maiores sed
+        officia eligendi optio harum? Molestias distinctio delectus consequuntur accusantium?
+    </p>
+    <h2 class="beforeList">
+        Lorem ipsum dolor sit amet.
+    </h2>
+    <ol>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil neque facilis aliquam eveniet
+            reprehenderit?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil neque facilis aliquam eveniet
+            reprehenderit?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil neque facilis aliquam eveniet
+            reprehenderit?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil neque facilis aliquam eveniet
+            reprehenderit?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil neque facilis aliquam eveniet
+            reprehenderit?</li>
+    </ol>
+</body>
+
+</html>

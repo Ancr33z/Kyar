@@ -1,0 +1,60 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    text-align: center;
+}
+.mainContentImg img {
+    display: block;
+    width: 170px;
+    margin-left: 30px;
+}
+aside {
+    width: 25%;
+    float: right;
+}
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+input {
+    color: black;
+}
+textarea {
+    resize: none;
+    border-radius: 5px;
+    display: inline;
+}
+.navMenu {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainContentTextWrapper {
+    display: flex;
+}
+.mainContentImg {
+    display: flex;
+    justify-content: space-around;
+}
+.asideContent {
+    display: flex;
+}
+.asideContentImg img {
+    margin-right: 15px;
+    width: 120px;
+}
+.form {
+    margin: 50px 10px;
+}

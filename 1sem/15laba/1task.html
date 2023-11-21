@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/1sem/clearList/normalize.css">
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+        margin-top: 5px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    ul li {
+        margin: 0;
+        text-decoration: none;
+        list-style-type: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    p {
+        display: inline;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        position: relative;
+        left: 5%;
+    }
+
+    label {
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+    }
+
+    input {
+        margin-top: 20px;
+    }
+
+    .container .lastfoto1 {
+        margin-top: 5px;
+        background-image: url(https://chudo-prirody.com/uploads/posts/2021-08/thumbs/1628706202_166-p-milie-koti-foto-179.jpg);
+        background-repeat: none;
+        background-size: 300px;
+    }
+
+    .lastfoto .lastfoto1:hover {
+        background-image: url(https://play-lh.googleusercontent.com/AmKSpZt_rynhOO0ID1eS0gqeW3DFzoH6KNZkAAgepQ0t9MDRQTmil-nlY5GqkZ_7El0=w240-h480-rw);
+        background-repeat: none;
+        background-size: 300px;
+    }
+
+
+    .secondfoto:focus,
+    .secondfoto:active {
+        border: 10px solid red;
+    }
+
+    .fotoopisanie ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    .fotoopisanie ul li {
+        margin: 0px 7px 0 0;
+        display: inline-block;
+    }
+
+    .fotoopisanie ul ul {
+        display: none;
+        position: absolute;
+    }
+
+    .fotoopisanie ul li:hover>ul {
+        display: inherit;
+    }
+
+    .fotoopisanie ul ul li {
+        text-align: center;
+        width: 300px;
+        height: 100px;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+
+    form div {
+        margin-top: 5px;
+    }
+
+    .forma {
+        margin: 50px 10px;
+        height: 200px;
+        width: 600px;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="fotoopisanie">
+                <ul class="menu">
+                    <li><img src="https://chudo-prirody.com/uploads/posts/2021-08/thumbs/1628706202_166-p-milie-koti-foto-179.jpg"
+                            alt="">
+                        <ul class="menuChoose">
+                            <li>Это милый котик который смотрит на вас</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <img class="secondfoto"
+                src="https://chudo-prirody.com/uploads/posts/2021-08/thumbs/1628706202_166-p-milie-koti-foto-179.jpg"
+                alt="">
+            <img class="thirdfoto"
+                src="https://chudo-prirody.com/uploads/posts/2021-08/thumbs/1628706202_166-p-milie-koti-foto-179.jpg"
+                alt="">
+            <ul class="lastfoto">
+                <li class="lastfoto1"></li>
+            </ul>
+        </div>
+        <form class="forma">
+            <label for=" familiya" class="form">Фамилия </label>
+            <input type="text" id="familiya">
+            <label for="imya" class="form">Имя </label>
+            <input type="text" id="imya">
+            <label for="nomertovara" class="form">Номер товара </label>
+            <input type="text" id="nomertovara">
+            <label for="adres" class="form">Дата доставк </label>
+            <input type="text" id="adres">
+            <input id="otpravit" type="submit">
+        </form>
+    </main>
+
+    <footer id="footerBlock">
+        <p id="familiyavihod"></p>
+        <p id="imyavihod"></p>
+        <p id="nomertovaravihod"></p>
+        <p id="adresvihod"></p>
+    </footer>
+
+</body>
+
+<script>
+    otpravit.addEventListener("click", () => {
+        event.preventDefault();
+        let familiyavihod = document.getElementById("familiya").value;
+        let imyavihod = document.getElementById("imya").value;
+        let nomertovaravihod = document.getElementById("nomertovara").value;
+        let adresvihod = document.getElementById("adres").value;
+        footerBlock.innerHTML = `<div>
+        <p><b>Фамилия:</b>: ${familiyavihod} </p>
+        <p><b>Имя</b>: ${imyavihod}</p>
+        <p><b>Номер товара</b>: ${nomertovaravihod}</p>
+        <p><b>Адрес доставки:</b> ${adresvihod}</p>
+    </div>`;
+    });
+</script>
+
+</html>
