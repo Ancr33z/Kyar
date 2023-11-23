@@ -1,10 +1,6 @@
-<?xml version="1.0"
-encoding="UTF-8"?>
-<telo
-xmlns:xsi="http://www.w3.org
-/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocat
-ion="note.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="forOsnova.css"?>
+<telo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="note.xsd">
     <osnova>КОтики</osnova>
     <text>Милые очень милые красивые невероятно веселые и прекрасные создания</text>
 </telo>

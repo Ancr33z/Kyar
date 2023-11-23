@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="telo.xsl"?>
-<telo>
-    <osnova>КОтики</osnova>
-    <text>Милые очень милые красивые невероятно веселые и прекрасные создания</text>
-</telo>
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <spiski>
     <cd>
         <ycheniki>Иванов В. В.</ycheniki>
