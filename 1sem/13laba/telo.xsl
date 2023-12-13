@@ -9,7 +9,7 @@
             <body>
                 <h2>Аттестация студентов</h2>
                 <table border="1">
-                    <tr bgcolor="#9acd32">6
+                    <tr bgcolor="#9acd32">
                         <th>Фамилия</th>
                         <th>ОПИ</th>
                         <th>КЯР</th>
