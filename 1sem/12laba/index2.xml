@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/css" href="forXML.css"?>
-<!DOCTYPE books [
+<!DOCTYPE telo [
 <!ELEMENT telo (osnova, text)>
-<!ELEMENT telo (#PCDATA)>
 <!ELEMENT osnova (#PCDATA)>
 <!ELEMENT text (#PCDATA)>
 ]>
